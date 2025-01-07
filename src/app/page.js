@@ -1,3 +1,6 @@
+import TodoForm from '../components/TodoForm';
+import List from '../components/List';
+
 function Home() {
   return (
     <div
@@ -9,7 +12,9 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      Welcome to Next JS!
+      <TodoForm />
+      <h2>To-Do List</h2>
+      <List />
     </div>
   );
 }
